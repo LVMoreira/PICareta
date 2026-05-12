@@ -1,0 +1,70 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "6f7e0d6d-4183-4f6a-b2fd-ca79d89a747e")
+	(paper "A4")
+	(lib_symbols)
+	(rectangle
+		(start 74.93 41.91)
+		(end 233.68 148.59)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid af305c7c-b9e6-438d-93c0-c3911207ea11)
+	)
+	(text "FUSELAGE"
+		(exclude_from_sim no)
+		(at 84.836 39.878 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "137b2f5d-c197-42b5-a60c-9008793e18f6")
+	)
+	(text "AVIONICS"
+		(exclude_from_sim no)
+		(at 80.518 97.282 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+		)
+		(uuid "74991213-4404-45a8-831c-1d4621cadccf")
+	)
+	(text "POWERTRAIN"
+		(exclude_from_sim no)
+		(at 81.788 43.942 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+		)
+		(uuid "b2b43875-b771-4a25-b8da-db9c015ef28a")
+	)
+	(polyline
+		(pts
+			(xy 74.93 95.25) (xy 233.68 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "425e173f-3cb1-4647-9fd3-232233cf2982")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

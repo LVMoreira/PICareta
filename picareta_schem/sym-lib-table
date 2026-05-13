@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "library_pic_powertrain")(type "KiCad")(uri "${KIPRJMOD}/library_pic_powertrain.kicad_sym")(options "")(descr ""))
+)

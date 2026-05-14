@@ -2210,7 +2210,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "MatekH743-WLITE"
-			(at -5.588 17.78 0)
+			(at -5.334 18.288 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2264,8 +2264,8 @@
 		)
 		(symbol "Matek_H743-WLITE_0_1"
 			(rectangle
-				(start 16.51 16.51)
-				(end -13.97 -12.7)
+				(start -13.97 16.51)
+				(end 16.51 -6.35)
 				(stroke
 					(width 0)
 					(type default)
@@ -2276,6 +2276,45 @@
 			)
 		)
 		(symbol "Matek_H743-WLITE_1_1"
+			(polyline
+				(pts
+					(xy 8.89 0) (xy 13.97 0)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 0 72 72 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 -2.54) (xy 13.97 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 0 72 72 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 11.43 7.62) (xy 13.97 7.62)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 0 72 72 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
 			(pin bidirectional line
 				(at -13.97 8.89 0)
 				(length 2)
@@ -2294,7 +2333,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin bidirectional clock
 				(at -13.97 6.35 0)
 				(length 2)
 				(name "CL"
@@ -2406,6 +2445,96 @@
 				(at 15.24 16.51 270)
 				(length 2)
 				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 16.51 6.35 180)
+				(length 2)
+				(name "CS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional clock
+				(at 16.51 3.81 180)
+				(length 2)
+				(name "SCLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 16.51 1.27 180)
+				(length 2)
+				(name "DIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 16.51 -1.27 180)
+				(length 2)
+				(name "DOUT/DRDY"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 16.51 -3.81 180)
+				(length 2)
+				(name "DRDY"
 					(effects
 						(font
 							(size 1.27 1.27)

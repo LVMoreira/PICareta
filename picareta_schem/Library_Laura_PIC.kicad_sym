@@ -9,12 +9,15 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "ADS1220"
-			(at -11.176 13.97 0)
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 72 0 0 1)
 				)
 			)
 		)
@@ -64,7 +67,7 @@
 		(symbol "ADS1220_0_1"
 			(rectangle
 				(start -15.24 12.7)
-				(end 13.97 -13.97)
+				(end 16.51 -12.7)
 				(stroke
 					(width 0)
 					(type default)
@@ -77,7 +80,7 @@
 		(symbol "ADS1220_1_1"
 			(polyline
 				(pts
-					(xy 6.35 -1.27) (xy 11.43 -1.27)
+					(xy 7.62 -1.27) (xy 13.97 -1.27)
 				)
 				(stroke
 					(width 0)
@@ -90,7 +93,7 @@
 			)
 			(polyline
 				(pts
-					(xy 6.35 -3.81) (xy 11.43 -3.81)
+					(xy 7.62 -3.81) (xy 13.97 -3.81)
 				)
 				(stroke
 					(width 0)
@@ -103,7 +106,7 @@
 			)
 			(polyline
 				(pts
-					(xy 8.89 6.35) (xy 11.43 6.35)
+					(xy 11.43 6.35) (xy 15.24 6.35)
 				)
 				(stroke
 					(width 0)
@@ -115,8 +118,8 @@
 				)
 			)
 			(pin input line
-				(at -15.24 3.81 0)
-				(length 2)
+				(at -17.78 3.81 0)
+				(length 2.54)
 				(name "AIN0"
 					(effects
 						(font
@@ -133,8 +136,8 @@
 				)
 			)
 			(pin input line
-				(at -15.24 1.27 0)
-				(length 2)
+				(at -17.78 1.27 0)
+				(length 2.54)
 				(name "AIN1"
 					(effects
 						(font
@@ -151,8 +154,8 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -1.27 0)
-				(length 2)
+				(at -17.78 -1.27 0)
+				(length 2.54)
 				(name "AIN2"
 					(effects
 						(font
@@ -169,8 +172,8 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -3.81 0)
-				(length 2)
+				(at -17.78 -3.81 0)
+				(length 2.54)
 				(name "AIN3"
 					(effects
 						(font
@@ -187,8 +190,8 @@
 				)
 			)
 			(pin power_in line
-				(at -3.81 12.7 270)
-				(length 2)
+				(at -3.81 15.24 270)
+				(length 2.54)
 				(name "AVDD"
 					(effects
 						(font
@@ -205,8 +208,8 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 -13.97 90)
-				(length 2)
+				(at -2.54 -15.24 90)
+				(length 2.54)
 				(name "AVSS"
 					(effects
 						(font
@@ -223,8 +226,8 @@
 				)
 			)
 			(pin power_in line
-				(at -1.27 12.7 270)
-				(length 2)
+				(at -1.27 15.24 270)
+				(length 2.54)
 				(name "REFP0"
 					(effects
 						(font
@@ -241,8 +244,8 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -13.97 90)
-				(length 2)
+				(at 0 -15.24 90)
+				(length 2.54)
 				(name "CLK"
 					(effects
 						(font
@@ -259,8 +262,8 @@
 				)
 			)
 			(pin power_in line
-				(at 1.27 12.7 270)
-				(length 2)
+				(at 1.27 15.24 270)
+				(length 2.54)
 				(name "REFN0"
 					(effects
 						(font
@@ -277,8 +280,8 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 -13.97 90)
-				(length 2)
+				(at 2.54 -15.24 90)
+				(length 2.54)
 				(name "DGND"
 					(effects
 						(font
@@ -295,8 +298,8 @@
 				)
 			)
 			(pin power_in line
-				(at 3.81 12.7 270)
-				(length 2)
+				(at 3.81 15.24 270)
+				(length 2.54)
 				(name "DVDD"
 					(effects
 						(font
@@ -313,8 +316,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 5.08 180)
-				(length 2)
+				(at 19.05 5.08 180)
+				(length 2.54)
 				(name "CS"
 					(effects
 						(font
@@ -331,8 +334,8 @@
 				)
 			)
 			(pin bidirectional clock
-				(at 13.97 2.54 180)
-				(length 2)
+				(at 19.05 2.54 180)
+				(length 2.54)
 				(name "SCLK"
 					(effects
 						(font
@@ -349,8 +352,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 0 180)
-				(length 2)
+				(at 19.05 0 180)
+				(length 2.54)
 				(name "DIN"
 					(effects
 						(font
@@ -367,8 +370,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 -2.54 180)
-				(length 2)
+				(at 19.05 -2.54 180)
+				(length 2.54)
 				(name "DOUT/DRDY"
 					(effects
 						(font
@@ -385,8 +388,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 -5.08 180)
-				(length 2)
+				(at 19.05 -5.08 180)
+				(length 2.54)
 				(name "DRDY"
 					(effects
 						(font
@@ -412,12 +415,15 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "FLC3-70"
-			(at -4.826 6.858 0)
+			(at 0.508 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 72 0 0 1)
 				)
 			)
 		)
@@ -466,8 +472,8 @@
 		)
 		(symbol "FLC3-70_0_1"
 			(rectangle
-				(start -8.89 5.08)
-				(end 10.16 -5.08)
+				(start -10.16 5.08)
+				(end 11.43 -5.08)
 				(stroke
 					(width 0)
 					(type default)
@@ -479,8 +485,8 @@
 		)
 		(symbol "FLC3-70_1_1"
 			(pin output line
-				(at -8.89 2.54 0)
-				(length 2)
+				(at -12.7 2.54 0)
+				(length 2.54)
 				(name "X_A0"
 					(effects
 						(font
@@ -497,8 +503,8 @@
 				)
 			)
 			(pin output line
-				(at -8.89 0 0)
-				(length 2)
+				(at -12.7 0 0)
+				(length 2.54)
 				(name "Y_A1"
 					(effects
 						(font
@@ -515,8 +521,8 @@
 				)
 			)
 			(pin output line
-				(at -8.89 -2.54 0)
-				(length 2)
+				(at -12.7 -2.54 0)
+				(length 2.54)
 				(name "Z_A3"
 					(effects
 						(font
@@ -533,8 +539,8 @@
 				)
 			)
 			(pin power_in line
-				(at 10.16 1.27 180)
-				(length 2)
+				(at 13.97 1.27 180)
+				(length 2.54)
 				(name "VCC+"
 					(effects
 						(font
@@ -551,8 +557,8 @@
 				)
 			)
 			(pin power_in line
-				(at 10.16 -1.27 180)
-				(length 2)
+				(at 13.97 -1.27 180)
+				(length 2.54)
 				(name "VCC-"
 					(effects
 						(font
@@ -578,12 +584,15 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "FLIR_LEPTON_CAMERA"
-			(at -1.27 15.748 0)
+			(at 0.254 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 72 0 0 1)
 				)
 			)
 		)
@@ -632,8 +641,8 @@
 		)
 		(symbol "FLIR_Lepton_250-0577-00_DS_1-2021_0_1"
 			(rectangle
-				(start -11.43 13.97)
-				(end 24.13 -16.51)
+				(start -22.86 12.7)
+				(end 22.86 -15.24)
 				(stroke
 					(width 0)
 					(type default)
@@ -645,8 +654,8 @@
 		)
 		(symbol "FLIR_Lepton_250-0577-00_DS_1-2021_1_1"
 			(pin input line
-				(at -11.43 10.16 0)
-				(length 3)
+				(at -26.86 10.16 0)
+				(length 4)
 				(name "GND"
 					(effects
 						(font
@@ -663,8 +672,8 @@
 				)
 			)
 			(pin power_in line
-				(at 24.13 10.16 180)
-				(length 3)
+				(at 26.67 10.16 180)
+				(length 3.81)
 				(name "PWR_IN"
 					(effects
 						(font
@@ -681,8 +690,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 7.62 0)
-				(length 3)
+				(at -26.86 7.62 0)
+				(length 4)
 				(name "VPROG"
 					(effects
 						(font
@@ -699,8 +708,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 24.13 7.62 180)
-				(length 3)
+				(at 26.67 7.62 180)
+				(length 3.81)
 				(name "VCC28"
 					(effects
 						(font
@@ -717,8 +726,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 5.08 0)
-				(length 3)
+				(at -26.86 5.08 0)
+				(length 4)
 				(name "SDA"
 					(effects
 						(font
@@ -735,8 +744,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 24.13 5.08 180)
-				(length 3)
+				(at 26.67 5.08 180)
+				(length 3.81)
 				(name "VCC28_IO"
 					(effects
 						(font
@@ -753,8 +762,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 2.54 0)
-				(length 3)
+				(at -26.86 2.54 0)
+				(length 4)
 				(name "SPI_CLK"
 					(effects
 						(font
@@ -771,8 +780,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 24.13 2.54 180)
-				(length 3)
+				(at 26.67 2.54 180)
+				(length 3.81)
 				(name "SLC"
 					(effects
 						(font
@@ -789,8 +798,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 0 0)
-				(length 3)
+				(at -26.86 0 0)
+				(length 4)
 				(name "SPI_MOSI"
 					(effects
 						(font
@@ -807,8 +816,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 24.13 0 180)
-				(length 3)
+				(at 26.67 0 180)
+				(length 3.81)
 				(name "SPI_CS"
 					(effects
 						(font
@@ -825,8 +834,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 -2.54 0)
-				(length 3)
+				(at -26.86 -2.54 0)
+				(length 4)
 				(name "GPIO_0"
 					(effects
 						(font
@@ -843,8 +852,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 24.13 -2.54 180)
-				(length 3)
+				(at 26.67 -2.54 180)
+				(length 3.81)
 				(name "SPI_MISO"
 					(effects
 						(font
@@ -861,8 +870,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 -5.08 0)
-				(length 3)
+				(at -26.86 -5.08 0)
+				(length 4)
 				(name "GPIO_2"
 					(effects
 						(font
@@ -879,8 +888,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 24.13 -5.08 180)
-				(length 3)
+				(at 26.67 -5.08 180)
+				(length 3.81)
 				(name "GPIO_1"
 					(effects
 						(font
@@ -897,8 +906,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 -7.62 0)
-				(length 3)
+				(at -26.86 -7.62 0)
+				(length 4)
 				(name "GPIO_3/VSYNC"
 					(effects
 						(font
@@ -915,8 +924,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 24.13 -7.62 180)
-				(length 3)
+				(at 26.67 -7.62 180)
+				(length 3.81)
 				(name "VCC12"
 					(effects
 						(font
@@ -933,8 +942,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 -10.16 0)
-				(length 3)
+				(at -26.86 -10.16 0)
+				(length 4)
 				(name "RESET_L"
 					(effects
 						(font
@@ -951,8 +960,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 24.13 -10.16 180)
-				(length 3)
+				(at 26.67 -10.16 180)
+				(length 3.81)
 				(name "MASTER_CLK"
 					(effects
 						(font
@@ -969,8 +978,8 @@
 				)
 			)
 			(pin input line
-				(at -11.43 -12.7 0)
-				(length 3)
+				(at -26.86 -12.7 0)
+				(length 4)
 				(name "GND"
 					(effects
 						(font
@@ -987,8 +996,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 24.13 -12.7 180)
-				(length 3)
+				(at 26.67 -12.7 180)
+				(length 3.81)
 				(name "PW_DWN_L"
 					(effects
 						(font
@@ -1014,12 +1023,15 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "JetsonOrinNX8GB"
-			(at -16.002 29.718 0)
+			(at 0 -6.858 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 72 0 0 1)
 				)
 			)
 		)
@@ -1081,7 +1093,7 @@
 		)
 		(symbol "Jetson_Orin_NX_8GB_1_1"
 			(text "CSI PINS"
-				(at -19.304 -11.938 0)
+				(at -19.05 -12.446 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1090,7 +1102,7 @@
 				)
 			)
 			(text "CAMERA PINS"
-				(at -17.272 6.858 0)
+				(at -17.018 6.096 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1099,7 +1111,7 @@
 				)
 			)
 			(text "POWER SUPPLY"
-				(at -16.256 25.146 0)
+				(at -16.002 24.384 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1108,7 +1120,7 @@
 				)
 			)
 			(text "ETHERNET PINS\n"
-				(at 16.256 -9.398 0)
+				(at 16.002 -9.652 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1117,7 +1129,7 @@
 				)
 			)
 			(text "USB PINS\n"
-				(at 18.796 -39.624 0)
+				(at 18.796 -40.132 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1126,7 +1138,7 @@
 				)
 			)
 			(text "SPI PINS\n"
-				(at 19.05 25.654 0)
+				(at 19.304 25.654 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1135,8 +1147,8 @@
 				)
 			)
 			(pin input line
-				(at -24.13 -33.02 0)
-				(length 4)
+				(at -27.94 -33.02 0)
+				(length 3.81)
 				(name "CSI1_D0_N_"
 					(effects
 						(font
@@ -1153,8 +1165,8 @@
 				)
 			)
 			(pin input line
-				(at -24.13 -15.24 0)
-				(length 4)
+				(at -27.94 -15.24 0)
+				(length 3.81)
 				(name "CSI0_D0_N_"
 					(effects
 						(font
@@ -1171,8 +1183,8 @@
 				)
 			)
 			(pin input line
-				(at -24.13 -35.56 0)
-				(length 4)
+				(at -27.94 -35.56 0)
+				(length 3.81)
 				(name "CSI1_D0_P_"
 					(effects
 						(font
@@ -1189,8 +1201,8 @@
 				)
 			)
 			(pin input line
-				(at -24.13 -17.78 0)
-				(length 4)
+				(at -27.94 -17.78 0)
+				(length 3.81)
 				(name "CSI0_D0_P_"
 					(effects
 						(font
@@ -1207,8 +1219,8 @@
 				)
 			)
 			(pin input line
-				(at -24.13 -38.1 0)
-				(length 4)
+				(at -27.94 -38.1 0)
+				(length 3.81)
 				(name "CSI1_CLK_N_"
 					(effects
 						(font
@@ -1225,8 +1237,8 @@
 				)
 			)
 			(pin input line
-				(at -24.13 -20.32 0)
-				(length 4)
+				(at -27.94 -20.32 0)
+				(length 3.81)
 				(name "CSI0_CLK_N_"
 					(effects
 						(font
@@ -1243,8 +1255,8 @@
 				)
 			)
 			(pin input line
-				(at -24.13 -40.64 0)
-				(length 4)
+				(at -27.94 -40.64 0)
+				(length 3.81)
 				(name "CSI1_CLK_P"
 					(effects
 						(font
@@ -1261,8 +1273,8 @@
 				)
 			)
 			(pin input line
-				(at -24.13 -22.86 0)
-				(length 4)
+				(at -27.94 -22.86 0)
+				(length 3.81)
 				(name "CSI0_CLK_P"
 					(effects
 						(font
@@ -1279,8 +1291,8 @@
 				)
 			)
 			(pin input line
-				(at -24.13 -43.18 0)
-				(length 4)
+				(at -27.94 -43.18 0)
+				(length 3.81)
 				(name "CSI1_D1_N_"
 					(effects
 						(font
@@ -1297,8 +1309,8 @@
 				)
 			)
 			(pin input line
-				(at -24.13 -25.4 0)
-				(length 4)
+				(at -27.94 -25.4 0)
+				(length 3.81)
 				(name "CSI0_D1_N_"
 					(effects
 						(font
@@ -1315,8 +1327,8 @@
 				)
 			)
 			(pin input line
-				(at -24.13 -45.72 0)
-				(length 4)
+				(at -27.94 -45.72 0)
+				(length 3.81)
 				(name "CSI1_D1_P"
 					(effects
 						(font
@@ -1333,8 +1345,8 @@
 				)
 			)
 			(pin input line
-				(at -24.13 -27.94 0)
-				(length 4)
+				(at -27.94 -27.94 0)
+				(length 3.81)
 				(name "CSI0_D1_P"
 					(effects
 						(font
@@ -1351,8 +1363,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 24.13 22.86 180)
-				(length 4)
+				(at 27.94 22.86 180)
+				(length 3.81)
 				(name "SPI0_MOSI_"
 					(effects
 						(font
@@ -1369,8 +1381,8 @@
 				)
 			)
 			(pin bidirectional clock
-				(at 24.13 20.32 180)
-				(length 4)
+				(at 27.94 20.32 180)
+				(length 3.81)
 				(name "SPI0_SCK_"
 					(effects
 						(font
@@ -1387,8 +1399,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 24.13 17.78 180)
-				(length 4)
+				(at 27.94 17.78 180)
+				(length 3.81)
 				(name "SPI0_MISO_"
 					(effects
 						(font
@@ -1405,8 +1417,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 24.13 15.24 180)
-				(length 4)
+				(at 27.94 15.24 180)
+				(length 3.81)
 				(name "SPI0_CS0"
 					(effects
 						(font
@@ -1423,8 +1435,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 24.13 12.7 180)
-				(length 4)
+				(at 27.94 12.7 180)
+				(length 3.81)
 				(name "SPI0_CS1"
 					(effects
 						(font
@@ -1441,8 +1453,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 24.13 7.62 180)
-				(length 6)
+				(at 30.48 7.62 180)
+				(length 6.35)
 				(name "SPI1_MOSI_"
 					(effects
 						(font
@@ -1459,8 +1471,8 @@
 				)
 			)
 			(pin bidirectional clock
-				(at 24.13 5.08 180)
-				(length 6)
+				(at 30.48 5.08 180)
+				(length 6.35)
 				(name "SPI0_SCK_"
 					(effects
 						(font
@@ -1477,8 +1489,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 24.13 2.54 180)
-				(length 6)
+				(at 30.48 2.54 180)
+				(length 6.35)
 				(name "SPI1_MISO_"
 					(effects
 						(font
@@ -1495,8 +1507,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 24.13 -43.18 180)
-				(length 6)
+				(at 30.48 -43.18 180)
+				(length 6.35)
 				(name "USB0_D_N"
 					(effects
 						(font
@@ -1513,8 +1525,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 24.13 0 180)
-				(length 6)
+				(at 30.48 0 180)
+				(length 6.35)
 				(name "SPI1_CS0"
 					(effects
 						(font
@@ -1531,8 +1543,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 24.13 -45.72 180)
-				(length 6)
+				(at 30.48 -45.72 180)
+				(length 6.35)
 				(name "USB0_D_P"
 					(effects
 						(font
@@ -1549,8 +1561,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 24.13 -2.54 180)
-				(length 6)
+				(at 30.48 -2.54 180)
+				(length 6.35)
 				(name "SPI1_CS1"
 					(effects
 						(font
@@ -1567,8 +1579,8 @@
 				)
 			)
 			(pin bidirectional clock
-				(at -24.13 3.81 0)
-				(length 6)
+				(at -30.48 3.81 0)
+				(length 6.35)
 				(name "CAM0_PWDN_"
 					(effects
 						(font
@@ -1585,8 +1597,8 @@
 				)
 			)
 			(pin bidirectional clock
-				(at -24.13 1.27 0)
-				(length 6)
+				(at -30.48 1.27 0)
+				(length 6.35)
 				(name "CAM0_MCLK_"
 					(effects
 						(font
@@ -1603,8 +1615,8 @@
 				)
 			)
 			(pin bidirectional clock
-				(at -24.13 -2.54 0)
-				(length 6)
+				(at -30.48 -2.54 0)
+				(length 6.35)
 				(name "CAM1_PWDN_"
 					(effects
 						(font
@@ -1621,8 +1633,8 @@
 				)
 			)
 			(pin bidirectional clock
-				(at -24.13 -5.08 0)
-				(length 6)
+				(at -30.48 -5.08 0)
+				(length 6.35)
 				(name "CAM1_MCLK_"
 					(effects
 						(font
@@ -1639,8 +1651,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 24.13 -17.78 180)
-				(length 6)
+				(at 30.48 -17.78 180)
+				(length 6.35)
 				(name "GBE_MDI0_N"
 					(effects
 						(font
@@ -1657,8 +1669,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 24.13 -20.32 180)
-				(length 6)
+				(at 30.48 -20.32 180)
+				(length 6.35)
 				(name "GBE_MDI0_P"
 					(effects
 						(font
@@ -1675,8 +1687,8 @@
 				)
 			)
 			(pin output line
-				(at 24.13 -12.7 180)
-				(length 6)
+				(at 30.48 -12.7 180)
+				(length 6.35)
 				(name "GBE_LED_LINK"
 					(effects
 						(font
@@ -1693,8 +1705,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 24.13 -22.86 180)
-				(length 6)
+				(at 30.48 -22.86 180)
+				(length 6.35)
 				(name "GBE_MDI1_N"
 					(effects
 						(font
@@ -1711,8 +1723,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 24.13 -25.4 180)
-				(length 6)
+				(at 30.48 -25.4 180)
+				(length 6.35)
 				(name "GBE_MDI1_P"
 					(effects
 						(font
@@ -1729,8 +1741,8 @@
 				)
 			)
 			(pin output line
-				(at 24.13 -15.24 180)
-				(length 6)
+				(at 30.48 -15.24 180)
+				(length 6.35)
 				(name "GBE_LED_ACT"
 					(effects
 						(font
@@ -1747,8 +1759,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 24.13 -27.94 180)
-				(length 6)
+				(at 30.48 -27.94 180)
+				(length 6.35)
 				(name "GBE_MDI2_N"
 					(effects
 						(font
@@ -1765,8 +1777,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 24.13 -30.48 180)
-				(length 6)
+				(at 30.48 -30.48 180)
+				(length 6.35)
 				(name "GBE_MDI2_P"
 					(effects
 						(font
@@ -1783,8 +1795,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 24.13 -33.02 180)
-				(length 6)
+				(at 30.48 -33.02 180)
+				(length 6.35)
 				(name "GBE_MDI3_N"
 					(effects
 						(font
@@ -1801,8 +1813,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 24.13 -35.56 180)
-				(length 6)
+				(at 30.48 -35.56 180)
+				(length 6.35)
 				(name "GBE_MDI3_P"
 					(effects
 						(font
@@ -1819,8 +1831,8 @@
 				)
 			)
 			(pin input line
-				(at -24.13 21.59 0)
-				(length 6)
+				(at -30.48 21.59 0)
+				(length 6.35)
 				(name "POWER_EN"
 					(effects
 						(font
@@ -1837,8 +1849,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 19.05 0)
-				(length 6)
+				(at -30.48 19.05 0)
+				(length 6.35)
 				(name "GND"
 					(effects
 						(font
@@ -1855,8 +1867,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 16.51 0)
-				(length 6)
+				(at -30.48 16.51 0)
+				(length 6.35)
 				(name "GND"
 					(effects
 						(font
@@ -1873,8 +1885,8 @@
 				)
 			)
 			(pin power_in line
-				(at -24.13 13.97 0)
-				(length 6)
+				(at -30.48 13.97 0)
+				(length 6.35)
 				(name "VDD_IN"
 					(effects
 						(font
@@ -1891,8 +1903,8 @@
 				)
 			)
 			(pin power_in line
-				(at -24.13 11.43 0)
-				(length 6)
+				(at -30.48 11.43 0)
+				(length 6.35)
 				(name "VDD_IN"
 					(effects
 						(font
@@ -1918,12 +1930,15 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "M10Q5883"
-			(at -4.064 12.7 0)
+			(at 0.508 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 72 0 0 1)
 				)
 			)
 		)
@@ -1972,8 +1987,8 @@
 		)
 		(symbol "M10Q5883_0_1"
 			(rectangle
-				(start -8.89 11.43)
-				(end 10.16 -8.89)
+				(start -8.89 7.62)
+				(end 10.16 -7.62)
 				(stroke
 					(width 0)
 					(type default)
@@ -1985,8 +2000,8 @@
 		)
 		(symbol "M10Q5883_1_1"
 			(pin power_in line
-				(at -8.89 7.62 0)
-				(length 3)
+				(at -11.43 6.35 0)
+				(length 2.54)
 				(name "5V"
 					(effects
 						(font
@@ -2003,8 +2018,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -8.89 5.08 0)
-				(length 3)
+				(at -11.43 3.81 0)
+				(length 2.54)
 				(name "RX"
 					(effects
 						(font
@@ -2021,8 +2036,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -8.89 2.54 0)
-				(length 3)
+				(at -11.43 1.27 0)
+				(length 2.54)
 				(name "TX"
 					(effects
 						(font
@@ -2039,8 +2054,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -8.89 0 0)
-				(length 3)
+				(at -11.43 -1.27 0)
+				(length 2.54)
 				(name "CL"
 					(effects
 						(font
@@ -2057,8 +2072,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -8.89 -2.54 0)
-				(length 3)
+				(at -11.43 -3.81 0)
+				(length 2.54)
 				(name "DA"
 					(effects
 						(font
@@ -2075,8 +2090,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -8.89 -5.08 0)
-				(length 3)
+				(at -11.43 -6.35 0)
+				(length 2.54)
 				(name "GND"
 					(effects
 						(font
@@ -2093,8 +2108,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 10.16 7.62 180)
-				(length 3)
+				(at 12.7 6.35 180)
+				(length 2.54)
 				(name "GND"
 					(effects
 						(font
@@ -2111,8 +2126,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 10.16 5.08 180)
-				(length 3)
+				(at 12.7 3.81 180)
+				(length 2.54)
 				(name "DA"
 					(effects
 						(font
@@ -2129,8 +2144,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 10.16 2.54 180)
-				(length 3)
+				(at 12.7 1.27 180)
+				(length 2.54)
 				(name "CL"
 					(effects
 						(font
@@ -2147,8 +2162,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 10.16 0 180)
-				(length 3)
+				(at 12.7 -1.27 180)
+				(length 2.54)
 				(name "TX"
 					(effects
 						(font
@@ -2165,8 +2180,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 10.16 -2.54 180)
-				(length 3)
+				(at 12.7 -3.81 180)
+				(length 2.54)
 				(name "RX"
 					(effects
 						(font
@@ -2183,8 +2198,8 @@
 				)
 			)
 			(pin power_in line
-				(at 10.16 -5.08 180)
-				(length 3)
+				(at 12.7 -6.35 180)
+				(length 2.54)
 				(name "5V"
 					(effects
 						(font
@@ -2210,12 +2225,15 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "MatekH743-WLITE"
-			(at -6.858 14.224 0)
+			(at 0 5.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 72 0 0 1)
 				)
 			)
 		)
@@ -2265,7 +2283,7 @@
 		(symbol "Matek_H743-WLITE_0_1"
 			(rectangle
 				(start -15.24 12.7)
-				(end 15.24 -10.16)
+				(end 15.24 -2.54)
 				(stroke
 					(width 0)
 					(type default)
@@ -2278,7 +2296,7 @@
 		(symbol "Matek_H743-WLITE_1_1"
 			(polyline
 				(pts
-					(xy 7.62 -3.81) (xy 12.7 -3.81)
+					(xy 10.16 2.54) (xy 15.24 2.54)
 				)
 				(stroke
 					(width 0)
@@ -2291,7 +2309,7 @@
 			)
 			(polyline
 				(pts
-					(xy 7.62 -6.35) (xy 12.7 -6.35)
+					(xy 10.16 0) (xy 15.24 0)
 				)
 				(stroke
 					(width 0)
@@ -2304,7 +2322,7 @@
 			)
 			(polyline
 				(pts
-					(xy 10.16 3.81) (xy 12.7 3.81)
+					(xy 12.7 10.16) (xy 13.97 10.16)
 				)
 				(stroke
 					(width 0)
@@ -2316,8 +2334,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.24 5.08 0)
-				(length 2)
+				(at -17.78 7.62 0)
+				(length 2.54)
 				(name "DA"
 					(effects
 						(font
@@ -2334,8 +2352,8 @@
 				)
 			)
 			(pin bidirectional clock
-				(at -15.24 2.54 0)
-				(length 2)
+				(at -17.78 5.08 0)
+				(length 2.54)
 				(name "CL"
 					(effects
 						(font
@@ -2352,8 +2370,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.24 0 0)
-				(length 2)
+				(at -17.78 2.54 0)
+				(length 2.54)
 				(name "TX"
 					(effects
 						(font
@@ -2370,8 +2388,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.24 -2.54 0)
-				(length 2)
+				(at -17.78 0 0)
+				(length 2.54)
 				(name "RX"
 					(effects
 						(font
@@ -2388,8 +2406,8 @@
 				)
 			)
 			(pin power_out line
-				(at 5.08 12.7 270)
-				(length 2)
+				(at -3.81 15.24 270)
+				(length 2.54)
 				(name "12V"
 					(effects
 						(font
@@ -2406,8 +2424,8 @@
 				)
 			)
 			(pin power_out line
-				(at 7.62 12.7 270)
-				(length 2)
+				(at -1.27 15.24 270)
+				(length 2.54)
 				(name "5V"
 					(effects
 						(font
@@ -2424,8 +2442,8 @@
 				)
 			)
 			(pin power_out line
-				(at 10.16 12.7 270)
-				(length 2)
+				(at 1.27 15.24 270)
+				(length 2.54)
 				(name "3V3"
 					(effects
 						(font
@@ -2442,8 +2460,8 @@
 				)
 			)
 			(pin power_out line
-				(at 13.97 12.7 270)
-				(length 2)
+				(at 3.81 15.24 270)
+				(length 2.54)
 				(name "GND"
 					(effects
 						(font
@@ -2460,8 +2478,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 2.54 180)
-				(length 2)
+				(at 17.78 8.89 180)
+				(length 2.54)
 				(name "CS"
 					(effects
 						(font
@@ -2478,8 +2496,8 @@
 				)
 			)
 			(pin bidirectional clock
-				(at 15.24 0 180)
-				(length 2)
+				(at 17.78 6.35 180)
+				(length 2.54)
 				(name "SCLK"
 					(effects
 						(font
@@ -2496,8 +2514,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -2.54 180)
-				(length 2)
+				(at 17.78 3.81 180)
+				(length 2.54)
 				(name "DIN"
 					(effects
 						(font
@@ -2514,8 +2532,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -5.08 180)
-				(length 2)
+				(at 17.78 1.27 180)
+				(length 2.54)
 				(name "DOUT/DRDY"
 					(effects
 						(font
@@ -2532,8 +2550,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -7.62 180)
-				(length 2)
+				(at 17.78 -1.27 180)
+				(length 2.54)
 				(name "DRDY"
 					(effects
 						(font
@@ -2559,12 +2577,15 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "RM-2450-12M3"
-			(at 2.54 11.684 0)
+			(at 0.762 4.572 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 72 0 0 1)
 				)
 			)
 		)
@@ -2613,8 +2634,8 @@
 		)
 		(symbol "RM-2450-12M3_0_1"
 			(rectangle
-				(start -5.08 10.16)
-				(end 8.89 -2.54)
+				(start -11.43 10.16)
+				(end 11.43 -2.54)
 				(stroke
 					(width 0)
 					(type default)
@@ -2626,8 +2647,8 @@
 		)
 		(symbol "RM-2450-12M3_1_1"
 			(pin bidirectional line
-				(at -5.08 5.08 0)
-				(length 2)
+				(at -13.97 1.27 0)
+				(length 2.54)
 				(name "USBx_D_P"
 					(effects
 						(font
@@ -2644,8 +2665,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -5.08 2.54 0)
-				(length 2)
+				(at -13.97 -1.27 0)
+				(length 2.54)
 				(name "USBx_D_N"
 					(effects
 						(font
@@ -2662,8 +2683,8 @@
 				)
 			)
 			(pin power_in line
-				(at 8.89 7.62 180)
-				(length 1)
+				(at 13.97 8.89 180)
+				(length 2.54)
 				(name "VCC"
 					(effects
 						(font
@@ -2680,8 +2701,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 8.89 0 180)
-				(length 1)
+				(at 13.97 -1.27 180)
+				(length 2.54)
 				(name "VDD"
 					(effects
 						(font
@@ -2707,12 +2728,15 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "SENTERA_6X_CAMERA"
-			(at -2.794 15.748 0)
+			(at 4.572 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 72 0 0 1)
 				)
 			)
 		)
@@ -2761,8 +2785,8 @@
 		)
 		(symbol "SENTERA_6X_CAMERA_0_1"
 			(rectangle
-				(start -12.7 13.97)
-				(end 12.7 -16.51)
+				(start -19.05 12.7)
+				(end 15.24 -15.24)
 				(stroke
 					(width 0)
 					(type default)
@@ -2774,8 +2798,8 @@
 		)
 		(symbol "SENTERA_6X_CAMERA_1_1"
 			(pin output line
-				(at -12.7 10.16 0)
-				(length 3)
+				(at -21.59 10.16 0)
+				(length 2.54)
 				(name "GBE_LED_LINK"
 					(effects
 						(font
@@ -2792,8 +2816,8 @@
 				)
 			)
 			(pin output line
-				(at -12.7 7.62 0)
-				(length 3)
+				(at -21.59 7.62 0)
+				(length 2.54)
 				(name "GBE_LED_ACT"
 					(effects
 						(font
@@ -2810,8 +2834,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -12.7 5.08 0)
-				(length 3)
+				(at -21.59 5.08 0)
+				(length 2.54)
 				(name "GBE_MDI0_N"
 					(effects
 						(font
@@ -2828,8 +2852,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -12.7 2.54 0)
-				(length 3)
+				(at -21.59 2.54 0)
+				(length 2.54)
 				(name "GBE_MDI0_P"
 					(effects
 						(font
@@ -2846,8 +2870,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -12.7 0 0)
-				(length 3)
+				(at -21.59 0 0)
+				(length 2.54)
 				(name "GBE_MDI1_N"
 					(effects
 						(font
@@ -2864,8 +2888,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -12.7 -2.54 0)
-				(length 3)
+				(at -21.59 -2.54 0)
+				(length 2.54)
 				(name "GBE_MDI1_P"
 					(effects
 						(font
@@ -2882,8 +2906,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -12.7 -5.08 0)
-				(length 3)
+				(at -21.59 -5.08 0)
+				(length 2.54)
 				(name "GBE_MDI2_N"
 					(effects
 						(font
@@ -2900,8 +2924,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -12.7 -7.62 0)
-				(length 3)
+				(at -21.59 -7.62 0)
+				(length 2.54)
 				(name "GBE_MDI2_P"
 					(effects
 						(font
@@ -2918,8 +2942,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -12.7 -10.16 0)
-				(length 3)
+				(at -21.59 -10.16 0)
+				(length 2.54)
 				(name "GBE_MDI3_N"
 					(effects
 						(font
@@ -2936,8 +2960,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -12.7 -12.7 0)
-				(length 3)
+				(at -21.59 -12.7 0)
+				(length 2.54)
 				(name "GBE_MDI3_P"
 					(effects
 						(font
@@ -2954,8 +2978,8 @@
 				)
 			)
 			(pin power_in line
-				(at 10.16 13.97 270)
-				(length 3)
+				(at 11.43 15.24 270)
+				(length 2.54)
 				(name "VCC+"
 					(effects
 						(font
@@ -2972,8 +2996,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 10.16 -16.51 90)
-				(length 3)
+				(at 11.43 -17.78 90)
+				(length 2.54)
 				(name "VDD-"
 					(effects
 						(font

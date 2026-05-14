@@ -2,6 +2,283 @@
 	(version 20251024)
 	(generator "kicad_symbol_editor")
 	(generator_version "10.0")
+	(symbol "ADS1220"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "ADS1220"
+			(at -17.526 6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at -10.16 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -10.16 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at -10.16 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at -10.16 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "ADS1220_0_1"
+			(rectangle
+				(start -21.59 5.08)
+				(end 3.81 -13.97)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "ADS1220_1_1"
+			(polyline
+				(pts
+					(xy -3.81 -5.08) (xy 1.27 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 0 72 72 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 -7.62) (xy 1.27 -7.62)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 0 72 72 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 2.54) (xy 1.27 2.54)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 0 72 72 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(pin input line
+				(at -21.59 1.27 0)
+				(length 2)
+				(name "AIN0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -21.59 -1.27 0)
+				(length 2)
+				(name "AIN1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -21.59 -3.81 0)
+				(length 2)
+				(name "AIN2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -21.59 -6.35 0)
+				(length 2)
+				(name "AIN3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 3.81 1.27 180)
+				(length 2)
+				(name "CS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional clock
+				(at 3.81 -1.27 180)
+				(length 2)
+				(name "SCLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 3.81 -3.81 180)
+				(length 2)
+				(name "DIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 3.81 -6.35 180)
+				(length 2)
+				(name "DOUT/DRDY"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 3.81 -8.89 180)
+				(length 2)
+				(name "DRDY"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "Jetson_Orin_NX_8GB"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -76,7 +353,7 @@
 		)
 		(symbol "Jetson_Orin_NX_8GB_1_1"
 			(text "CSI PINS"
-				(at -19.304 -9.398 0)
+				(at -19.304 -11.938 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -121,7 +398,7 @@
 				)
 			)
 			(pin input line
-				(at -24.13 -30.48 0)
+				(at -24.13 -33.02 0)
 				(length 4)
 				(name "CSI1_D0_N_"
 					(effects
@@ -139,7 +416,7 @@
 				)
 			)
 			(pin input line
-				(at -24.13 -12.7 0)
+				(at -24.13 -15.24 0)
 				(length 4)
 				(name "CSI0_D0_N_"
 					(effects
@@ -157,7 +434,7 @@
 				)
 			)
 			(pin input line
-				(at -24.13 -33.02 0)
+				(at -24.13 -35.56 0)
 				(length 4)
 				(name "CSI1_D0_P_"
 					(effects
@@ -175,7 +452,7 @@
 				)
 			)
 			(pin input line
-				(at -24.13 -15.24 0)
+				(at -24.13 -17.78 0)
 				(length 4)
 				(name "CSI0_D0_P_"
 					(effects
@@ -193,7 +470,7 @@
 				)
 			)
 			(pin input line
-				(at -24.13 -35.56 0)
+				(at -24.13 -38.1 0)
 				(length 4)
 				(name "CSI1_CLK_N_"
 					(effects
@@ -211,7 +488,7 @@
 				)
 			)
 			(pin input line
-				(at -24.13 -17.78 0)
+				(at -24.13 -20.32 0)
 				(length 4)
 				(name "CSI0_CLK_N_"
 					(effects
@@ -229,7 +506,7 @@
 				)
 			)
 			(pin input line
-				(at -24.13 -38.1 0)
+				(at -24.13 -40.64 0)
 				(length 4)
 				(name "CSI1_CLK_P"
 					(effects
@@ -247,7 +524,7 @@
 				)
 			)
 			(pin input line
-				(at -24.13 -20.32 0)
+				(at -24.13 -22.86 0)
 				(length 4)
 				(name "CSI0_CLK_P"
 					(effects
@@ -265,7 +542,7 @@
 				)
 			)
 			(pin input line
-				(at -24.13 -40.64 0)
+				(at -24.13 -43.18 0)
 				(length 4)
 				(name "CSI1_D1_N_"
 					(effects
@@ -283,7 +560,7 @@
 				)
 			)
 			(pin input line
-				(at -24.13 -22.86 0)
+				(at -24.13 -25.4 0)
 				(length 4)
 				(name "CSI0_D1_N_"
 					(effects
@@ -301,7 +578,7 @@
 				)
 			)
 			(pin input line
-				(at -24.13 -43.18 0)
+				(at -24.13 -45.72 0)
 				(length 4)
 				(name "CSI1_D1_P"
 					(effects
@@ -319,7 +596,7 @@
 				)
 			)
 			(pin input line
-				(at -24.13 -25.4 0)
+				(at -24.13 -27.94 0)
 				(length 4)
 				(name "CSI0_D1_P"
 					(effects
@@ -553,7 +830,7 @@
 				)
 			)
 			(pin bidirectional clock
-				(at -24.13 -1.27 0)
+				(at -24.13 -2.54 0)
 				(length 6)
 				(name "CAM1_PWDN_"
 					(effects
@@ -571,7 +848,7 @@
 				)
 			)
 			(pin bidirectional clock
-				(at -24.13 -3.81 0)
+				(at -24.13 -5.08 0)
 				(length 6)
 				(name "CAM1_MCLK_"
 					(effects

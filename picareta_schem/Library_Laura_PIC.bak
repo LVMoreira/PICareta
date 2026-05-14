@@ -633,7 +633,7 @@
 		(symbol "FLIR_Lepton_250-0577-00_DS_1-2021_0_1"
 			(rectangle
 				(start -11.43 13.97)
-				(end 20.32 -16.51)
+				(end 24.13 -16.51)
 				(stroke
 					(width 0)
 					(type default)
@@ -663,7 +663,7 @@
 				)
 			)
 			(pin power_in line
-				(at 20.32 10.16 180)
+				(at 24.13 10.16 180)
 				(length 3)
 				(name "PWR_IN"
 					(effects
@@ -699,6 +699,24 @@
 				)
 			)
 			(pin bidirectional line
+				(at 24.13 7.62 180)
+				(length 3)
+				(name "VCC28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
 				(at -11.43 5.08 0)
 				(length 3)
 				(name "SDA"
@@ -709,6 +727,24 @@
 					)
 				)
 				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 5.08 180)
+				(length 3)
+				(name "VCC28_IO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -735,6 +771,24 @@
 				)
 			)
 			(pin bidirectional line
+				(at 24.13 2.54 180)
+				(length 3)
+				(name "SLC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
 				(at -11.43 0 0)
 				(length 3)
 				(name "SPI_MOSI"
@@ -745,6 +799,24 @@
 					)
 				)
 				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 0 180)
+				(length 3)
+				(name "SPI_CS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -771,6 +843,24 @@
 				)
 			)
 			(pin bidirectional line
+				(at 24.13 -2.54 180)
+				(length 3)
+				(name "SPI_MISO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
 				(at -11.43 -5.08 0)
 				(length 3)
 				(name "GPIO_2"
@@ -781,6 +871,24 @@
 					)
 				)
 				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 -5.08 180)
+				(length 3)
+				(name "GPIO_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -807,6 +915,24 @@
 				)
 			)
 			(pin bidirectional line
+				(at 24.13 -7.62 180)
+				(length 3)
+				(name "VCC12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
 				(at -11.43 -10.16 0)
 				(length 3)
 				(name "RESET_L"
@@ -817,6 +943,24 @@
 					)
 				)
 				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 -10.16 180)
+				(length 3)
+				(name "MASTER_CLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -835,6 +979,24 @@
 					)
 				)
 				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 -12.7 180)
+				(length 3)
+				(name "PW_DWN_L"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
 					(effects
 						(font
 							(size 1.27 1.27)

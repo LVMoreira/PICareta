@@ -437,7 +437,7 @@
         "uuid": "6f7e0d6d-4183-4f6a-b2fd-ca79d89a747e"
       }
     ],
-    "used_designators": "ADS1,M10Q1,FLC3\\-1,FLIR_LEPTON_CAMERA1,MatekH743\\-WLITE1,JetsonOrinNX8GB2,RM\\-2450\\-12M1,SENTERA_6X_CAMERA1",
+    "used_designators": "RM\\-2450\\-12M1,#PWR7-21,JetsonOrinNX8GB2,MatekH743\\-WLITE1,FLIR_LEPTON_CAMERA1,ADS1",
     "variants": []
   },
   "sheets": [

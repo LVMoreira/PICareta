@@ -6,6 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "Drone Avionic's Schematic")
+		(date "May 2026")
+		(company "Omniscan")
 	)
 	(lib_symbols
 		(symbol "ACC26:ESC"
@@ -5856,6 +5858,20 @@
 			(type none)
 		)
 		(uuid "45d4a41e-e2f4-40f4-b7c5-ca0af6840811")
+	)
+	(rectangle
+		(start 307.34 271.78)
+		(end 336.55 274.32)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 247 255 1)
+		)
+		(fill
+			(type color)
+			(color 255 250 255 1)
+		)
+		(uuid "ac25c542-bd12-4ff9-835e-fbe15d6ee680")
 	)
 	(text "FUSELAGE"
 		(exclude_from_sim no)

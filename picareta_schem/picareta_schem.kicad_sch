@@ -7040,6 +7040,16 @@
 		)
 		(uuid "a6e48322-2bce-469d-8a7f-d4eb765c1432")
 	)
+	(polyline
+		(pts
+			(xy 120.65 254) (xy 120.65 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7303cc2-52ea-4e49-bf9d-ce5a380d033b")
+	)
 	(wire
 		(pts
 			(xy 214.63 264.16) (xy 214.63 252.73)
